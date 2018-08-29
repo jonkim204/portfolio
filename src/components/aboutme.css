@@ -1,0 +1,20 @@
+.aboutme-container {
+  background-color: #f95959;
+  height: 150px;
+  float: left;
+  clear: none;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about-me-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #455d7a;
+}
+
+#about-me-paragraph{
+  color: floralwhite;
+  text-align: center;
+}
