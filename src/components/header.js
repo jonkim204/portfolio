@@ -10,7 +10,7 @@ export default class Navbar extends React.Component {
 render () {
   return(
     <div className = "header-container">
-      <h1>Jonathan Kim</h1>
+      <h1>Jon Kim</h1>
       <h2>Full-stack Developer</h2>
       <h3>Los Angeles, CA</h3>
       <h4>jonkim204@gmail.com</h4>
