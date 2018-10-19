@@ -1,8 +1,10 @@
 import React from 'react';
 import './projects.css';
-import Project from './project';
+import { Link } from 'react-router-dom';
+import EventProject from './eventproject';
+import LearnProject from './learnproject';
+import ShaveProject from './shaveproject';
 
-const eventsImg = require("../assets/img/events.png");
 
 const Projects = (props) => {
   return (
@@ -10,12 +12,12 @@ const Projects = (props) => {
       <div id="projects-header-container">
         <h2 className='projects-heading'>Projects</h2>
         <p id="projects-paragraph">I build web apps primarily with React, Mongo, and Node</p>
+        <p id="projects-view">Click on a project to view its details</p>
       </div>
       <div className = "projects-list">
-        < Project/>
-        < Project/>
-        < Project/>
-        < Project/>
+        <Link to="/eventfinder">< EventProject/></Link>
+        <Link to="/ilearn">< LearnProject/></Link>
+        <Link to="/shavereducer">< ShaveProject/></Link>
       </div>
     </div>
   )

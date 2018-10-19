@@ -1,0 +1,13 @@
+.project-desc{
+  font-size: 12px;
+  color: white;
+}
+
+.project-meta-wrapper {
+  padding: 8px 16px;
+  background-color: #779393;
+}
+
+.project-image-wrapper > img {
+  width: 100%;
+}

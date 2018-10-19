@@ -1,0 +1,76 @@
+.project-page-img {
+    display: block;
+    height: 250px;
+    width: auto;
+    margin: 20px auto;
+}
+
+.project-page-title {
+    color: #6c2a27;
+}
+
+.project-page-desc {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.project-page-stack {
+    font-weight: 400;
+    font-size: 19px;
+    color: #222;
+    text-transform: none;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.project-page-problem {
+    font-family: 'ProximaNovaCond-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #666;
+}
+
+.strongest {
+    font-weight: 700;
+}
+
+.project-page-container {
+    max-width: 480px;
+    padding: 50px 0;
+    width: 100%;
+    margin: auto;
+    font-family: 'museo300';
+    font-weight: 300;
+}
+
+.project-page-details {
+    font-family: 'ProximaNovaCond-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #666;
+}
+
+.source-link {
+    font-size: 27px;
+    text-align: left;
+}
+
+
+.back {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.back-button {
+    font-size: 27px;
+}

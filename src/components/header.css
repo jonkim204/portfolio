@@ -1,34 +1,68 @@
 .header-container {
-  background-color: #233142;
+  background-color:#b55853;
   text-align: center;
   width: 100%;
   float: left;
   clear: none;
+  padding: 60px 20px;
 }
 
 h1 {
-  color: floralwhite;
-  font-family: 'Kosugi Maru', sans-serif;
+  color: #f9f1f1;
+  font-size: 48px;
+  font-family: 'museo300';
 }
 
 h2 {
-  color: floralwhite;
-  font-family: 'Lato', sans-serif;
-
+  color: #f9f1f1;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0px;
+  font-family: 'ProximaNovaCond-Regular';
 }
 
 h3 {
-  color: floralwhite;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-variant: small-caps;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  margin: 0px;
+  font-family: 'ProximaNovaCond-Regular';
+  color: #fff;
+  font-weight: normal;
 }
 
-h4, .logo-links {
-  color: #455d7a;
+.email {
+  color: #6c2a27;
+  text-transform: none;
 }
-#gh-logo, #linkedIn-logo {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 0 12px;
+
+.logo-links {
+  color: #6c2a27;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.fa-github, .fa-linkedin, .fa-envelope {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h1, h2, h3, h4 {
+  margin: 15px 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #6c2a27;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #6c2a27;
+}
+
+a:hover {
+	color: #a57471;
 }
