@@ -60,10 +60,15 @@
     color: #666;
 }
 
-.source-link {
+.source-link{
     font-size: 27px;
-    text-align: left;
 }
+
+.live-link {
+    padding-bottom: 30px;
+    font-size: 27px;
+}
+
 
 
 .back {

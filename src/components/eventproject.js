@@ -1,7 +1,7 @@
 import React from 'react';
 import './eventproject.css';
 
-const eventImg = require("../assets/img/events.png");
+const eventImg = require("../assets/img/eventproject.png");
 
 
 const EventProject = (props) => {
@@ -15,7 +15,7 @@ const EventProject = (props) => {
             <h3>Search for Local Events</h3>
           </div>
           <div>
-            <p className="project-desc">Create and search for local events (2018)</p>
+            <p className="project-desc">Create and search for local events</p>
           </div>
         </div>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './eventproject.css';
 
 
-const iLearnImg = require("../assets/img/iLearn.png");
+const iLearnImg = require("../assets/img/ilearnhome.png");
 
 
 const LearnProject = (props) => {
@@ -16,7 +16,7 @@ const LearnProject = (props) => {
             <h3>Learn a Language</h3>
             </div>
             <div>
-            <p className="project-desc">Learn Spanish with spaced repetition (2018)</p>
+            <p className="project-desc">Learn Spanish with spaced repetition</p>
             </div>
         </div>
     </div>

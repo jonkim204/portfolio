@@ -8,15 +8,16 @@ import ShaveProject from './shaveproject';
 
 const Projects = (props) => {
   return (
-    <div>
+    <div className="container">
       <div id="projects-header-container">
         <h2 className='projects-heading'>Projects</h2>
         <p id="projects-paragraph">I build web apps primarily with React, Mongo, and Node</p>
-        <p id="projects-view">Click on a project to view its details</p>
+        <p id="projects-view">(Click on a project to view its details)</p>
       </div>
       <div className = "projects-list">
-        <Link to="/eventfinder">< EventProject/></Link>
-        <Link to="/ilearn">< LearnProject/></Link>
+        <div className="project-1">
+          <Link to="/eventfinder">< EventProject/></Link>
+        </div>
         <Link to="/shavereducer">< ShaveProject/></Link>
       </div>
     </div>

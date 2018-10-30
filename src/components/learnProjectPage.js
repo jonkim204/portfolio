@@ -19,6 +19,7 @@ const LearnProjectPage = () => {
                     <p className="project-page-details">There were definitely some struggles while creating this. Deciding how to set up the schema took some time and planning. I had to decide how I wanted to store certain information to pertain to a specific user. Also, creating the algorithm was a challenge that was solved through trial and error.</p><br/>
                     <p className="project-page-details">So what's next? I would like to add more useful features in the future. For example, a way for users' to add their own words and allow for other languages to be learned. The UI can definitely be improved as well.</p><br/>
                 </div>
+            <div className="live-link"><a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank">jon-filipp-spcrep-client.herokuapp.com</a></div>
             <div className="source-link">
                 <i class="fab fa-github fa-1x"></i> <a className="source-link" href="https://github.com/thinkful-ei22/jon-fillip-spaced-repetition-client" target="_blank">Source</a><br/>
             </div>

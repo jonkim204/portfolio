@@ -2,7 +2,7 @@ import React from 'react';
 import './eventproject.css';
 
 
-const shaveReducerImg = require("../assets/img/shaveReducer.png");
+const shaveReducerImg = require("../assets/img/shaveHome.png");
 
 const ShaveProject = (props) => {
   return (
@@ -15,7 +15,7 @@ const ShaveProject = (props) => {
                 <h3>Shaving Community</h3>
             </div>
             <div>
-                <p className="project-desc">Keep track of shaving products and usage (2018)</p>
+                <p className="project-desc">Keep track of shaving products and usage</p>
             </div>
         </div>
       </div>
