@@ -18,7 +18,12 @@ const Projects = (props) => {
         <div className="project-1">
           <Link to="/eventfinder">< EventProject/></Link>
         </div>
-        <Link to="/shavereducer">< ShaveProject/></Link>
+        <div className="project-2">
+          <Link to="/ilearn">< LearnProject/></Link>
+        </div>
+        <div className="project-3">
+          <Link to="/shavereducer">< ShaveProject/></Link>
+        </div>
       </div>
     </div>
   )
