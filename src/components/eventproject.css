@@ -8,6 +8,11 @@
   background-color: #779393;
 }
 
+.project-meta-wrapper:hover {
+  background-color: #87b4b4;
+  color: #fff;
+}
+
 .project-image-wrapper > img {
   width: 100%;
   height: 230px;
