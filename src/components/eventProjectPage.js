@@ -19,9 +19,9 @@ const EventProjectPage = () => {
                     <p className="project-page-details">The goal of this website is to eventually create a community of users who can choose to make events public or private. Ultimately, I plan to create a place where people living in unfamiliar areas are able to meet others in similar predicaments and continue to meet with each other.</p><br/>
                     <p className="project-page-details">This project is still in the works and I will continue to update and improve features as well as the UI. I plan to integrate the google maps API along with focusing on creating a community for users.</p><br/>
                 </div>
-                <div className="live-link"><a href="https://eventfinder-client.herokuapp.com" target="_blank">eventfinder-client.herokuapp.com</a></div>
+                <div className="live-link"><a href="https://eventfinder-client.herokuapp.com" target="_blank"><button className="link-button">Live App</button></a></div>
             <div className="source-link">
-                <i class="fab fa-github fa-1x"></i> <a className="gh-link" href="https://github.com/thinkful-ei22/jon-events-client" target="_blank">Source</a><br/>
+                <a className="gh-link" href="https://github.com/thinkful-ei22/jon-events-client" target="_blank"><button className="link-button">Source</button></a><br/>
             </div>
             <div className="back">
              <Link to="/" className="back-button">&#x3c; Back</Link>

@@ -79,3 +79,14 @@
 .back-button {
     font-size: 27px;
 }
+
+.link-button {
+    background-color: #6c2a27;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}

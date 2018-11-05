@@ -20,9 +20,9 @@ const ShaveProjectPage = () => {
                     <p className="project-page-details">The goal is to create a large community where users can choose to share their shave histories and have other users view and take ideas from others. I beleive this application can be very useful for those who enjoy a good old fashioned shave and would like to keep a log of past shaves.</p><br/>
                     <p className="project-page-details">There were many struggles building this application. The database of products had to be manually entered and placed in an organized manner to use across different schemas. Implementing the .csv upload feature required research and a good amount of failures.</p><br/>
                 </div>
-                <div className="live-link"><a href="https://hetokibo-shaving-client.herokuapp.com/" target="_blank">hetokibo-shaving-client.herokuapp.com</a></div>
+                <div className="live-link"><a href="https://hetokibo-shaving-client.herokuapp.com/" target="_blank"><button className="link-button">Live App</button></a></div>
             <div className="source-link">
-                <i class="fab fa-github fa-1x"></i> <a className="source-link" href="https://github.com/thinkful-ei22/shaving-tracker-client" target="_blank">Source</a><br/>
+                <a className="source-link" href="https://github.com/thinkful-ei22/shaving-tracker-client" target="_blank"><button className="link-button">Source</button></a><br/>
             </div>
             <div className="back">
              <Link to="/" className="back-button">&#x3c; Back</Link>
