@@ -9,7 +9,7 @@ const EventProjectPage = () => {
         <div className = "project-page-container">
             <img className="project-page-img" src = {eventImg} />
             <div className="project-page-info">
-            <a href="https://eventfinder-client.herokuapp.com/" target="_blank"><h1 className="project-page-title">EventFinder</h1></a>
+            <h1 className="project-page-title">EventFinder</h1>
                 <h3 className="project-page-desc">Simple tool for users to create and find local events</h3>
                 <h4 className="project-page-stack">Primary tech: Node.js, React, Redux</h4>
                 <p className="project-page-problem"><span class="strongest">The Problem:</span> While living abroad, I found it difficult to keep in touch with new people I met. </p> <br/>

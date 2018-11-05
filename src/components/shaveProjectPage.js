@@ -9,7 +9,7 @@ const ShaveProjectPage = () => {
         <div className = "project-page-container">
             <img className="project-page-img" src = {shaveReducerImg} />
             <div className="project-page-info">
-            <a href="https://hetokibo-shaving-client.herokuapp.com/" target="_blank"><h1 className="project-page-title">ShaveReducer</h1></a>
+            <h1 className="project-page-title">ShaveReducer</h1>
                 <h3 className="project-page-desc">A community for shave enthusiasts</h3>
                 <h4 className="project-page-stack">Primary tech: Node.js, React, Redux</h4>
                 <h4 className="project-page-stack">Other tech: PapaParse, React-Modal, React-Tabs, Moment.js</h4>

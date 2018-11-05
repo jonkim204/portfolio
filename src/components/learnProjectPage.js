@@ -9,7 +9,7 @@ const LearnProjectPage = () => {
         <div className = "project-page-container">
             <img className="project-page-img" src = {iLearnImg} />
             <div className="project-page-info">
-            <a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank"><h1 className="project-page-title">iLearn</h1></a>
+            <h1 className="project-page-title">iLearn</h1>
                 <h3 className="project-page-desc">Learn spanish with spaced repetition</h3>
                 <h4 className="project-page-stack">Primary tech: Node.js, React, Redux</h4>
                 <p className="project-page-problem"><span class="strongest">The Problem:</span> It's difficult learning a new language. This application takes advantage of spaced repetition to provide an efficient method of learning. </p> <br/>
