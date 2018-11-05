@@ -8,16 +8,17 @@ import EventProjectPage from './eventProjectPage';
 import LearnProjectPage from './learnProjectPage';
 import ShaveProjectPage from './shaveProjectPage';
 import Home from './home';
+import ScrollToTop from './scrolltotop';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 const App = () => (
   <Router>
     <div>
-        <Route exact path = "/" component = {Home}  />
-        <Route exact path = "/eventfinder" component = {EventProjectPage} />
-        <Route exact path = "/ilearn" component = {LearnProjectPage} />
-        <Route exact path = "/shavereducer" component = {ShaveProjectPage} />
+    <ScrollToTop><Route exact path = "/" component = {Home}/></ScrollToTop>
+    <ScrollToTop><Route exact path = "/eventfinder" component = {EventProjectPage}/></ScrollToTop>
+    <ScrollToTop><Route exact path = "/ilearn" component = {LearnProjectPage} /></ScrollToTop>
+    <ScrollToTop><Route exact path = "/shavereducer" component = {ShaveProjectPage}/></ScrollToTop>
       </div>
   </Router>
   );
