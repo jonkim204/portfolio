@@ -10,7 +10,7 @@ const Projects = (props) => {
   return (
     <div className="container">
       <div id="projects-header-container">
-        <h2 className='projects-heading'>Projects</h2>
+        <h3 className='projects-heading'>Projects</h3>
         <p id="projects-paragraph">I build web apps primarily with React, Mongo, and Node</p>
         <p id="projects-view">(Click on a project to view its details)</p>
       </div>
