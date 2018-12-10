@@ -112,11 +112,11 @@ button:hover {
 @media only screen and (max-width: 650px) {
   .event-img {
     width: 345px;
-    margin-left: 10px;
+    margin-left: 24px;
   }
   .proj-links {
     text-align: center;
     margin-bottom: 30px;
-    margin-right: 42px;
+    margin-right: 40px;
   }
 }
