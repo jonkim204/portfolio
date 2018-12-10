@@ -32,7 +32,7 @@
   width: 400px;
   height: 250px;
   display: block;
-  margin: 30px auto 0 auto;
+  /* margin: 30px auto 0 auto; */
   box-shadow:6px 6px 6px #888888;
   border: 1px solid black;
 }
@@ -64,7 +64,6 @@
   border: none;
   margin-left: 10px;
   border: 2px solid #B13C3E;
-  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -107,5 +106,17 @@ button:hover {
     max-width: 800px;
     width: 100%;
     margin: 45px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .event-img {
+    width: 345px;
+    margin-left: 10px;
+  }
+  .proj-links {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 42px;
   }
 }
