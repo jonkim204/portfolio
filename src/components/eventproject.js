@@ -1,7 +1,7 @@
 import React from 'react';
 import './eventproject.css';
 
-const eventImg = require("../assets/img/eventproject.png");
+const eventImg = require("../assets/img/event.png");
 
 
 const EventProject = (props) => {

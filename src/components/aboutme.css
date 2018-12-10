@@ -1,33 +1,45 @@
 .aboutme-container {
-  background-color: #21363f;
-  height: auto;
-  float: left;
-  clear: none;
-  width: 100%;
-  margin: 0;
-  font-family: 'ProximaNovaCond-Regular';
-  font-weight: normal;
-  font-size: 20px;
-  color: #fff;
-  padding: 60px 20px;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 0;
 }
 
-#about-me-heading {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  text-align: center;
-  color: #f9f1f1;
-  display: block;
-  width: auto;
+
+
+.aboutme-par {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 0 15px 0 15px;
 }
 
-#about-me-paragraph{
-  color: #f9f1f1;
-  margin-top: 15px;
-  font-family: 'Niramit', sans-serif;
-  line-height: 48px;
-  max-width: 480px;
-  width: 100%;
-  margin: auto;
+.aboutme-header {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 50px;
+    padding-top: 150px;
+    font-weight: bolder;
 }
 
+.aboutme-img {
+   border-radius: 150px;
+   width: auto;
+   height: 250px;
+   display: block;
+   margin: 30px auto 0 auto;
+}
+
+
+@media only screen and (min-width: 780px) {
+    .column-left {
+        float: left;
+        width: 40%;
+    }
+    .column-right {
+        float: left;
+        width: 60%;
+    }
+}

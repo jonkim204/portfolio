@@ -1,43 +1,111 @@
-#projects-header-container {
-  background-color: #496f6f;
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 16px 49px -11px rgba(0,0,0,0.35);
+}
+
+
+
+.projects-heading {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 50px;
+    padding-top: 150px;
+    font-weight: bolder;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.proj-par {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 400px;
+  width: 100%;
+  margin: 45px 0;
+}
+
+
+.event-img {
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin: 30px auto 0 auto;
+  box-shadow:6px 6px 6px #888888;
+  border: 1px solid black;
+}
+
+.project-page-title {
   text-align: center;
-}
-
-.container {
-  background-color: #496f6f;
-}
-
-.project-1, .project-2, .project-3 {
+  margin-top: 30px;
+  font-size: 32px;
   margin-bottom: 30px;
 }
 
-.projects-list {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 35px;
-  padding: 40px 20px; */
-  display: block;
-  max-width: 400px;
-  width: 100%;
-  margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #496f6f;
+.project-title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 65px;
+  margin-bottom: 60px;
+  font-variant: small-caps;
+  font-family: 'Karla', sans-serif;
+  color: #C42C0E
+}
+
+.gh-button {
+  font-family: 'Lato', sans-serif;
+  color: #B13C3E;
+  font-size: 1.2em;
+  background: #ffffff;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: none;
+  margin-left: 10px;
+  border: 2px solid #B13C3E;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 
-#projects-paragraph {
-  color: #fff;
-  font-size: 18px;
+.view-project {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: #B13C3E;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: none;
+  border: 2px solid #B13C3E;
+  cursor: pointer;
 }
 
-#projects-view {
-  color: #fff;
-  font-size: 15px;
-  margin-top: 20px;
-  font-weight: bolder;
+.proj-links {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.project-page-title, .project-page-desc, .project-page-stack, .project-page-problem, .project-page-details {
-  vertical-align: middle;
+button:hover {
+  background-color: #ee9e74;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 800px) {
+  .event-img {
+    width: 800px;
+    height: 450px;
+    display: block;
+    margin: 30px auto 0 auto;
+    box-shadow:6px 6px 6px #888888;
+    border: 1px solid black;
+  }
+  .proj-par {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    max-width: 800px;
+    width: 100%;
+    margin: 45px 0;
+  }
 }

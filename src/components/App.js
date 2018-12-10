@@ -1,26 +1,20 @@
 import React from 'react';
 import './App.css';
-// import Navbar from './header';
-// import Footer from './footer';
-// import Projects from './projects';
-// import AboutMe from './aboutme';
-import EventProjectPage from './eventProjectPage';
-import LearnProjectPage from './learnProjectPage';
-import ShaveProjectPage from './shaveProjectPage';
-import Home from './home';
-import ScrollToTop from './scrolltotop';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './navbar';
+import AboutMe from './aboutme';
+import Projects from './projects';
+import Footer from './footer';
+import Contact from './contact';
 
 
 const App = () => (
-  <Router>
-    <div>
-    <ScrollToTop><Route exact path = "/" component = {Home}/></ScrollToTop>
-    <ScrollToTop><Route exact path = "/eventfinder" component = {EventProjectPage}/></ScrollToTop>
-    <ScrollToTop><Route exact path = "/ilearn" component = {LearnProjectPage} /></ScrollToTop>
-    <ScrollToTop><Route exact path = "/shavereducer" component = {ShaveProjectPage}/></ScrollToTop>
-      </div>
-  </Router>
+  <div>
+    < Navbar />
+    < AboutMe />
+    < Projects />
+    < Contact />
+    < Footer />
+  </div>
   );
 
 export default App;

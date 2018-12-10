@@ -1,15 +1,10 @@
 .footer-container {
-  background-color: #b55853;
+  background-color: #333;
   height: auto;
   text-align: center;
-  padding: 60px 20px;
 }
 
-#footer-copyright, #footer-email, .footer-logo-links {
-  margin: 40px 40px;
-  margin-bottom: 0;
-}
-
-.footer-header {
-  margin-top: 0;
+#footer-copyright {
+  color: #ffff;
+  padding: 27px 0;
 }
