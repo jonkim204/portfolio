@@ -1,13 +1,19 @@
 .aboutme-container {
-    min-height: 100vh;
+    min-height: 70vh;
     width: auto;
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 0;
+    align-items: center; 
+    margin-bottom: 20vh;
+    margin-top: 0;
+    /* box-shadow: 6px 16px 49px -11px rgba(0,0,0,0.35); */
 }
 
-
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 .aboutme-par {
     font-family: 'Karla', sans-serif;
@@ -22,6 +28,7 @@
     font-size: 50px;
     padding-top: 150px;
     font-weight: bolder;
+    padding-bottom: 0;
 }
 
 .aboutme-img {
@@ -32,14 +39,28 @@
    margin: 30px auto 0 auto;
 }
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 @media only screen and (min-width: 780px) {
-    .column-left {
+    [class*="col-"] {
         float: left;
-        width: 40%;
+        padding: 15px;
     }
-    .column-right {
-        float: left;
-        width: 60%;
+}
+
+@media only screen and (max-width: 780px) {
+    [class*="col-"] {
+        width: 100%;
     }
 }

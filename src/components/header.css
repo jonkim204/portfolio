@@ -1,0 +1,192 @@
+.App {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .App-header {
+    color: #000000;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  
+  .contact-div {
+    background-color: #00d8ff;
+    padding: 20px;
+  }
+  .App-title {
+    margin-top: 50px;
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .contact-icons {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .contact-icons li {
+    display: inline-block;
+  }
+  
+  .my-picture {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    font-size: 25px;
+    padding-top: 10px;
+    line-height: 150%;
+    list-style-type: none;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+  .project-description {
+    font-size: 25px;
+    line-height: 150%;
+    padding-left: 20px;
+  }
+  
+  .my-name {
+    font-size: 80px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  
+  .div-header {
+    font-size: 35px;
+  }
+  
+  .project-name {
+    font-size: 25px;
+  }
+  
+  .about-me-div {
+    color: #292f36;
+    height: 100vh;
+  }
+  
+  .project-div {
+    background-color: #292f36;
+    color: white;
+  }
+  
+  .project-div h3 {
+    padding-top: 35px;
+  }
+  
+  .project-link:link, .project-link:visited {
+    color: white;
+  }
+  
+  .project-link:hover {
+    color: #00d8ff;
+  }
+  
+  .icon {
+    padding-right: 25px;
+  }
+  
+  .project-picture {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .name-span a {
+    color: #C1514F;
+    font-weight: bold;
+  }
+  
+  .name-span a:visited {
+    color: #C1514F;
+  }
+  
+  .name-span a:hover {
+    color: rgb(121, 51, 50);
+  }
+  
+  
+  .state-link:link, .state-link:visited {
+    color: rgb(7, 131, 7);
+  }
+  
+  .state-link:hover {
+    color: rgb(9, 90, 9);
+  }
+  
+  .react-span {
+    color: #00d8ff;
+  }
+  
+  .App-header a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #000000;
+  }
+  
+  .App-header a:visited {
+    color: white;
+  }
+  
+  .App-header a:hover {
+    color: grey;
+  }
+  
+  .back-to-top {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .back-to-top:visited {
+    color: black;
+  }
+  
+  .back-to-top:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 550px) and (max-height: 1030px) {
+    .my-picture {
+      float: none;
+      width: 90%;
+    }
+  
+    .project-picture {
+      float: none;
+      width: 90%;
+    }
+  
+    .App-header {
+      height: 100%;
+    }
+    .App-header a {
+      display: block;
+    }
+  
+    .about-me-div {
+      height: 100%;
+    }
+  
+    .bio {
+      width: 90%;
+    }
+  }

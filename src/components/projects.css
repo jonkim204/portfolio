@@ -3,9 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 6px 16px 49px -11px rgba(0,0,0,0.35);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* box-shadow: 6px 16px 49px -11px rgba(0,0,0,0.35); */
 }
 
+.ilearn-container {
+  box-shadow: 6px 16px 49px -11px rgba(0,0,0,0.35);
+}
 
 
 .projects-heading {
@@ -29,9 +34,7 @@
 
 
 .event-img {
-  width: 400px;
-  height: 250px;
-  display: block;
+  width:100%;
   /* margin: 30px auto 0 auto; */
   box-shadow:6px 6px 6px #888888;
   border: 1px solid black;
@@ -83,6 +86,7 @@
 .proj-links {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 button:hover {
@@ -90,7 +94,7 @@ button:hover {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 800px) {
+/* @media only screen and (min-width: 800px) {
   .event-img {
     width: 800px;
     height: 450px;
@@ -107,9 +111,9 @@ button:hover {
     width: 100%;
     margin: 45px 0;
   }
-}
+} */
 
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
   .event-img {
     width: 345px;
     margin-left: 24px;
@@ -119,4 +123,4 @@ button:hover {
     margin-bottom: 30px;
     margin-right: 40px;
   }
-}
+} */
