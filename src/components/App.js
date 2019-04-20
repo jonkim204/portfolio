@@ -76,7 +76,7 @@ const App = () => (
           </div>
           <div className="col-7">
                <p>
-                 Event Finder is a website that allows for users to connect with one another. The inspiration for this came from the time I spent the past living and working abroad in East Asia</p>
+                 Event Finder is a website that allows for users to connect with one another. The inspiration for this came from the time I spent living and working abroad in East Asia</p>
               <p>Technology Used: React, Redux, Node.Js, MongoDB</p>
           </div>
          </div>
@@ -90,7 +90,7 @@ const App = () => (
           <h3 className="project-title">iLearn</h3>
           <div className="col-7">
               <p>iLearn was built mainly for practice and for fun. I wanted to attempt at using a linked list data structure to create a spaced repetition algorithm.
-                  Users can practice words coninuously. Depending on the users' answer, the same question will repeat after a certain number of responses. Users can keep track of their streak and total correct answers.
+                  Users can repeatedly practice vocabulary words to slowly build up understanding of Spanish. Depending on the users' answer, the same question will repeat after a certain number of responses. Users can keep track of their streak and total correct answers.
               </p>
               <p>Technology Used: React, Redux, Node.Js, MongoDB</p>
           </div>
@@ -111,7 +111,7 @@ const App = () => (
           </div>
           <div className="col-7">
             <p>
-              ShaveReducer is a place for shaving enthusiasts. Here, users are able to keep track of shaving products used and ratings of particular shaves. 
+              ShaveReducer is a place for shaving enthusiasts. Here, users are able to keep track of shaving products used, and their ratings of particular shaves. 
             </p>
             <p>Technology Used: React, Redux, Node.Js, MongoDB</p>
           </div>
